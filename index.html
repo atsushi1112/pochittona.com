@@ -5,49 +5,56 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ポチっとな.com</title>
 
-    <!-- ここにCSSのリンクを追加してください -->
-    <!-- CSSファイルをアップロードした場合: -->
+    <!-- 外部CSSファイルを使いたい場合、ここにリンクを入れてください -->
+    <!-- CSSファイルをリポジトリにアップロード後: -->
     <link rel="stylesheet" href="style.css">
 
-    <!-- ここにインラインCSSを書きたい場合は、<style>タグを使用してください -->
+    <!-- インラインCSS（直接HTMLに書くCSS）の例 -->
     <style>
-        /* CSSを直接書く例: 背景色とフォントを設定 */
         body {
             font-family: Arial, sans-serif;
             margin: 20px;
-            background-color: #f0f0f0;
+            background-color: #f9f9f9;
             color: #333;
         }
-        /* ロゴ画像の中央揃え */
         header img {
             display: block;
             margin: 0 auto;
             width: 200px;
             height: auto;
         }
+        main {
+            text-align: center;
+        }
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 0.8em;
+            color: #555;
+        }
     </style>
 </head>
 <body>
-    <!-- サイトのロゴを表示する部分 -->
-    <!-- ここにロゴ画像をアップロードした場合のパスを入れてください -->
+    <!-- ヘッダー部分: ロゴ画像 -->
+    <!-- ここにJPGファイルのパスを入れてください -->
     <header>
-        <img src="logo.jpeg" alt="ポチっとな.com">
+        <img src="logo.jpg" alt="ポチっとな.comのロゴ">
     </header>
 
-    <!-- サイトのメインコンテンツ -->
+    <!-- メインコンテンツ -->
     <main>
         <h1>ようこそ！</h1>
         <p>ポチっとな.comへようこそ！</p>
 
-        <!-- ここにリンクやボタンを追加してください -->
+        <!-- ここにリンクを追加する例 -->
         <p>
             <a href="https://example.com" target="_blank">リンクの例: Example.com</a>
         </p>
     </main>
 
-    <!-- フッター部分（必要に応じて追加） -->
+    <!-- フッター部分 -->
     <footer>
-        <!-- ここにフッターのテキストやリンクを追加してください -->
+        <!-- ここに著作権や追加情報を記述してください -->
         <p>&copy; 2024 ポチっとな.com</p>
     </footer>
 </body>
