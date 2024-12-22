@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="vending-machine">
+        <h1>自動販売機風ホームページ</h1>
+        <div class="products">
+            <div class="product">
+                <p>商品1</p>
+                <p>¥150</p>
+            </div>
+            <div class="product">
+                <p>商品2</p>
+                <p>¥200</p>
+            </div>
+            <div class="product">
+                <p>商品3</p>
+                <p>¥250</p>
+            </div>
+            <div class="product">
+                <p>商品4</p>
+                <p>¥300</p>
+            </div>
+            <div class="product">
+                <p>商品5</p>
+                <p>¥350</p>
+            </div>
+            <div class="product">
+                <p>商品6</p>
+                <p>¥400</p>
+            </div>
+        </div>
+    </div>
+    
+    <style>
+        /* 自動販売機のデザイン */
+        .vending-machine {
+            text-align: center;
+            color: #333;
+            margin: 20px auto;
+        }
+    
+        /* 商品リストのスタイル */
+        .products {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            max-width: 1000px;
+            margin: 20px auto;
+        }
+    
+        /* 商品カードのデザイン */
+        .product {
+            background: #fff;
+            border: 2px solid #ddd;
+            border-radius: 10px;
+            text-align: center;
+            width: 150px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            transition: transform 0.2s ease, opacity 0.2s ease;
+        }
+    
+        /* 商品のテキスト */
+        .product p {
+            margin: 10px 0;
+            font-size: 1em;
+            color: #333;
+            font-weight: bold;
+        }
+    
+        /* ホバー時のアニメーション */
+        .product:hover {
+            cursor: pointer;
+            opacity: 0.9;
+            transform: scale(1.05);
+        }
+    </style>
+    
+</body>
+</html>
